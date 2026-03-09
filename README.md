@@ -2,11 +2,14 @@ These are just a few scripts I've been working on in Python - I am NOT a coder, 
 
 This is helping me (slowly) learn Python.
 
-So far I have:
-rid_correlation.py - this scans all three major logfiles from DSD+ and allows you to specify two TGIDs and a date (or all time) and it will output the following:
+rid_correlation:
+ DESCRIPTION:
+  This script analyzes DSDPlus event logs to identify "cross-over" units.
+  It finds Radio IDs (RIDs) that have appeared on a tactical/encrypted 
+  talkgroup and then cross-references them against clear-voice dispatch 
+  channels to reveal their identity or routine assignments.
 
 Tactical Alert:
- Live Tactical Alert Tool for DSDPlus
  DESCRIPTION:
- This script monitors a DSDPlus event log in real-time and sends an 
- instant Telegram notification whenever encrypted activity is detected.
+  This script monitors a DSDPlus event log in real-time and sends an 
+  instant Telegram notification whenever encrypted activity is detected.
