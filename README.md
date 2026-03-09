@@ -13,3 +13,12 @@ Tactical Alert:
  DESCRIPTION:
   This script monitors a DSDPlus event log in real-time and sends an 
   instant Telegram notification whenever encrypted activity is detected.
+
+  TTD Two Tone:
+
+ This script is designed to be called by TwoToneDetect (TTD) when a fire tone is found.
+ It waits for the audio file to be finalized, transcribes the dispatch using the 
+ Faster-Whisper AI model, applies phonetic corrections for computer-aided dispatch (Locution),
+ and sends the transcript and audio file to a designated Telegram bot.
+
+*** NOTE: You will need to install Whisper AI - instructions to follow ***
