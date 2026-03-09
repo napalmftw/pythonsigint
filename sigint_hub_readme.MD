@@ -1,16 +1,28 @@
-🛰️ LakeOps Intelligence Dashboard
-A real-time P25 radio intelligence suite for DSDPlus, designed to provide high-resolution tactical awareness. This dashboard parses .event logs to visualize traffic patterns, track priority units, and monitor encrypted tactical deployments.
+🛰️ SIGINT Intelligence Dashboard (hub)
+
+A real-time P25 radio intelligence suite for DSDPlus, designed to provide high-resolution tactical awareness.
+
+This dashboard parses .event logs to visualize traffic patterns, track priority units, and monitor encrypted tactical deployments.
+
+
 
 🚀 Features
+
+
 🔒 Tactical ENC Tab: Real-time feed of encrypted transmissions with target highlighting.
+
 
 📊 TGID Intel: Dual Plotly charts for Clear vs. Encrypted traffic distribution by Talkgroup.
 
+
 👤 Unit Deep-Dive: Filter activity by Radio ID (RID) to identify "Pattern of Life."
+
 
 🚨 Watchlist: Instant visual alerts for flagged units using a custom watchlist.txt.
 
+
 📝 Alias Editor: Modify the DSDPlus.radios database directly from the web interface.
+
 
 🛠️ Installation & Setup
 To get the Hub running on your machine, follow these steps:
