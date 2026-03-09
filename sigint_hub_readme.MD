@@ -32,15 +32,21 @@ Open your terminal (Command Prompt or PowerShell) and run:
 
 Bash
 pip install streamlit pandas plotly streamlit-autorefresh
+
 2. Configure Your Paths
+
 Open hub.py and update the DSD_DIR variable to point to your DSDPlus folder.
 
 3. Run the App
+
 Navigate to your script folder and launch the dashboard:
 
-Bash
+Bash/cmd
+
 streamlit run hub.py
+
 📂 Required Files
+
 Ensure the following files exist in your script directory:
 
 hub.py (The main script)
