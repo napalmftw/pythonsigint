@@ -1,5 +1,5 @@
 # Live Tactical Alert Tool for DSDPlus
-# Created by: David John Pickard
+# Created by: David K3FTW
 #
 # DESCRIPTION:
 # This script monitors a DSDPlus event log in real-time and sends an 
@@ -78,4 +78,5 @@ if __name__ == "__main__":
     try:
         watch_log()
     except KeyboardInterrupt:
+
         print("\nWatcher stopped by user.")
